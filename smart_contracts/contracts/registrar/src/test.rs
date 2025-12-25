@@ -7,6 +7,7 @@ extern crate std;
 
 #[cfg(test)]
 mod test_setup {
+    
     use super::*;
 
     pub fn setup_contract() -> (RegistrarContractClient<'static>, Address, Env) {
